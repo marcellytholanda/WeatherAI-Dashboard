@@ -72,7 +72,13 @@ O dashboard simula essas projeções com base em diferentes cenários de emissã
 
 ## 📁 Estrutura do Repositório
 
-├── api_coleta.py # Coleta de dados climáticos (modelo) ├── modelo_arima.py # Previsão climática com ARIMA ├── regressao.py # Previsão com Regressão Linear ├── consultas.sql # Estrutura e consultas SQL ├── README.md # Documentação do projeto ├── WeatherAI-Dashboard.mp4 # Vídeo demonstrativo ├── imagens/ # Gráficos e cenários simulados
+├── api_coleta.py                # Coleta de dados climáticos (modelo)
+├── modelo_arima.py              # Previsão climática com ARIMA
+├── regressao.py                 # Previsão com Regressão Linear
+├── consultas.sql                # Estrutura e consultas SQL
+├── README.md                    # Documentação do projeto
+├── WeatherAI-Dashboard.mp4      # Vídeo demonstrativo
+└── imagens/                     # Gráficos e cenários simulados
 
 ---
 
