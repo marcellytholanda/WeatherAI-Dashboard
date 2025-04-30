@@ -1,31 +1,101 @@
 # WeatherAI-Dashboard
-WeatherAI-Dashboard is a repository that showcases an interactive dashboard developed to visualize real-time climate data and generate predictions using Artificial Intelligence (AI). While the full dashboard code is not available for execution here, this repository contains images and videos demonstrating its functionality.
 
-## Dashboard Presentation
-This repository includes screenshots and videos of the WeatherAI-Dashboard in action, illustrating its interactive interface and how it displays climate data along with AI-based predictions.
+Este repositório apresenta o projeto **WeatherAI-Dashboard**, um dashboard interativo desenvolvido para visualização de dados climáticos em tempo real e geração de previsões com base em modelos de Inteligência Artificial.
 
-## Contributing
-This repository is not open for direct code contributions. However, you can share suggestions or improvements through issues or pull requests. Feel free to contribute ideas or enhancements to the project.
+## 🎯 Objetivo
 
-## Dashboard Explanation
-The WeatherAI-Dashboard is designed to visualize climate data and provide insights into the ongoing impacts of climate change. It incorporates real-time climate data, with a specific focus on how temperature and other climate variables are projected to change over time, based on information from the Intergovernmental Panel on Climate Change (IPCC).
+Fornecer uma ferramenta visual e educativa para análise de dados climáticos, com foco na conscientização ambiental e na aplicação de técnicas de Ciência de Dados no contexto do Ensino Médio.
 
-## Climate Change Projections
-According to the IPCC, the average global temperature is expected to rise between 1.1°C and 5.4°C by 2100 due to the accumulation of greenhouse gases, primarily from human activities. The dashboard visualizes the following projections:
+## 🧠 Tecnologias e Métodos Utilizados
 
-By 2050, the global temperature is projected to increase by about 1.5°C.
-By 2100, the global temperature is expected to rise by 2–4°C.
-These projections are crucial for understanding how the planet's climate will evolve, as well as the potential impacts on ecosystems, agriculture, and human infrastructure.
+- Power BI para visualização e integração de dados
+- Python com modelos de IA para previsão:
+  - ARIMA (séries temporais)
+  - Regressão Linear
+- SQL para manipulação e consultas de dados
+- API OpenWeatherMap para coleta de dados climáticos reais
 
-## Contributing Factors to Climate Change
-The dashboard highlights the main factors contributing to climate change:
+---
 
-Greenhouse Gases: Carbon dioxide (CO2) and other heat-trapping gases are primarily responsible for global warming. The dashboard provides insights into the levels of these gases and their impact on rising global temperatures.
-Human Activities: Industrial processes, transportation, and agriculture are the main human-driven activities releasing greenhouse gases into the atmosphere, further contributing to global warming.
+## 📊 Apresentação do Dashboard
 
-## IPCC Reports on Climate Change
-The dashboard also references key findings from IPCC reports, including the Special Report on the Impacts of Global Warming of 1.5°C above pre-industrial levels. The report discusses:
+Este repositório contém:
 
-The impacts of climate change on energy, urban, infrastructure, and industrial systems.
-How climate change interacts with sustainable development, emphasizing the urgent need for mitigation and adaptation strategies.
-By providing these insights, the WeatherAI-Dashboard serves as a valuable tool for visualizing climate data, understanding trends, and raising awareness about the urgent need to address climate change.
+- Imagens de cenários climáticos
+- Vídeo demonstrativo do dashboard em funcionamento
+- Scripts utilizados como base no projeto (em Python e SQL)
+
+> O dashboard foi aplicado no Colégio São João de Deus (RJ), como ferramenta educativa interativa para alunos do Ensino Médio, em alinhamento com o ODS 13: Ação Contra a Mudança Global do Clima.
+
+---
+
+## 📦 Scripts Utilizados no Projeto
+
+> Os códigos abaixo são modelos usados para gerar os dados analisados no dashboard. Eles são demonstrativos e não precisam ser executados neste repositório.
+
+### `api_coleta.py`
+Modelo de script em Python para coleta de dados da API OpenWeatherMap, simulando a obtenção de temperatura, umidade, pressão etc.
+
+### `modelo_arima.py`
+Modelo de previsão utilizando ARIMA (AutoRegressive Integrated Moving Average) aplicado a séries temporais climáticas.
+
+### `regressao.py`
+Script de exemplo com aplicação de Regressão Linear para prever temperaturas futuras com base em dados históricos.
+
+### `consultas.sql`
+Script com:
+- Estrutura de tabela `dados_climaticos`
+- Inserções simuladas
+- Consultas SQL para análise no Power BI (temperatura média, dias mais quentes, agrupamentos por cidade, etc.)
+
+---
+
+## 🌍 Projeções de Mudança Climática
+
+De acordo com o IPCC:
+
+- Até 2050: aumento médio de aproximadamente 1.5°C
+- Até 2100: aumento entre 2°C e 4°C
+
+O dashboard simula essas projeções com base em diferentes cenários de emissão (baixo, médio e alto).
+
+---
+
+## 🧪 Resultados Esperados/Obtidos
+
+- Visualização de dados climáticos em tempo real
+- Geração de previsões com base em modelos de IA
+- Interface acessível e interativa para professores e estudantes
+- Conscientização ambiental e aprendizado prático em sala de aula
+
+---
+
+## 📁 Estrutura do Repositório
+
+├── api_coleta.py # Coleta de dados climáticos (modelo) ├── modelo_arima.py # Previsão climática com ARIMA ├── regressao.py # Previsão com Regressão Linear ├── consultas.sql # Estrutura e consultas SQL ├── README.md # Documentação do projeto ├── WeatherAI-Dashboard.mp4 # Vídeo demonstrativo ├── imagens/ # Gráficos e cenários simulados
+
+---
+
+## 👩‍🏫 Aplicação Educacional
+
+- **Instituição:** Colégio São João de Deus – Rio de Janeiro/RJ  
+- **Público-alvo:** Estudantes e professores do Ensino Médio  
+- **ODS Atendido:** 13 – Ação Contra a Mudança Global do Clima
+
+---
+
+## 📽️ Demonstração
+
+🔗 Repositório com imagens, vídeo e códigos-modelo:  
+[https://github.com/marcellytholanda/WeatherAI-Dashboard](https://github.com/marcellytholanda/WeatherAI-Dashboard)
+
+---
+
+## ✅ Considerações Finais
+
+Este projeto proporcionou aprendizado prático em:
+
+- Integração de APIs climáticas
+- Desenvolvimento de modelos preditivos com Python
+- Visualização de dados com Power BI
+- Aplicação real da Ciência de Dados no contexto educacional
